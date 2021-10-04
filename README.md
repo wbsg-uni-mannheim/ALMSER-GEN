@@ -11,25 +11,27 @@ If you want to run any of the above strategies, please use the ALMSER-GB code lo
 https://github.com/wbsg-uni-mannheim/ALMSER-GB.git
 
 # Functionalities ALMSER-GEN repo
-You can find the follwoing functionalities in this repository:
+You can find the following functionalities in this repository:
 # 1. ALMSERgen code generator
 Navigate to ALMSERgen/ALMSERgen_INIT.ipynb notebook. Run ALMSERgen as follows:
+
 Step 1: Define configuration
   sources: amount of sources to be generated
-  id_attr: idnetifying attributes of the domain
+  id_attr: identifying attributes of the domain
   main_path : path to output the generated tasks
-  vpo_values : amount of groups of data sources with the same value pattern. Dont't forget to normalize it before analysis!!!
+  vpo_values : amount of groups of data sources with the same value pattern. Don't forget to normalize it before analysis!
   eo_values : entity overlap levels
   vh_values : value heterogeneity levels
 
 Step 2: ALMSERgen will generate the tasks (sources and feature vectors)
-Step 3: Along with the tasks the following files are generated.
-  train/test split using the cc of the complete graph
-  unsupervised results
-  passive learning results
-  distribution of connected components sizes (bar chart)
-  naive transfer learning heatmap as csv
-  profiling information on the task
+
+Step 3: Along with the tasks the following files are generated:
+  - train/test split using the cc of the complete graph
+  - unsupervised results
+  - passive learning results
+  - distribution of connected components sizes (bar chart)
+  - naive transfer learning heatmap as csv
+  - profiling information on the task
 
 # 2. Analysis of continuum tasks
 Navigate to continuum_tasks_analysis.ipynb notebook. What you can do here?
@@ -41,9 +43,9 @@ Navigate to continuum_tasks_analysis.ipynb notebook. What you can do here?
 # 3. Analysis of benchmark tasks
 Navigate to benchmark_tasks_analysis.ipynb notebook. What you can do here?
 
-  a. Gets identifying attributes [1] per task (Benchmark tasks located in benchmark_tasks.zip --see details above to download --> Please unzip before using). 
-  b. Produces results table
-  c. Calculates profiling dimensions per task
+  1. Gets identifying attributes [1] per task (Benchmark tasks located in benchmark_tasks.zip --see details above to download --> Please unzip before using). 
+  2. Produces results table
+  3. Calculates profiling dimensions per task
 
   [1] Primpeli, Anna, and Christian Bizer. "Profiling entity matching benchmark tasks." Proceedings of the 29th ACM International Conference on Information & Knowledge Management. 2020.
 
