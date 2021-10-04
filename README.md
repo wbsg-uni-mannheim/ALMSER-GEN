@@ -10,6 +10,11 @@ Each task, contains all necessary data for reproducing the results of the paper.
 If you want to run any of the above strategies, please use the ALMSER-GB code located at:
 https://github.com/wbsg-uni-mannheim/ALMSER-GB.git
 
+# INSTALLATION OF REQUIRED PACKAGES:
+
+The project runs with Python 3.7. 
+Please install the packages found in the requirements.txt file.
+
 # Functionalities ALMSER-GEN repo
 You can find the following functionalities in this repository:
 # 1. ALMSERgen code generator
