@@ -1,6 +1,6 @@
 # ALMSER-GEN
 
-This repository contains the code for reproducing the results of the paper "Active Learning for Multi-Source Entity Matching: How do the Characteristics of the Task Impact Performance?" submitted at EDBT2022.
+This repository contains the code for reproducing the results of the paper "Active Learning for Multi-Source Entity Matching: How do the Characteristics of the Task Impact Performance?".
 
 Due to the large size of files containing the data, we provide the generated multi-source matching tasks (584 MB) and benchmark tasks (103M) as zip files here:
 
